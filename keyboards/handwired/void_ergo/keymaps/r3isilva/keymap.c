@@ -18,10 +18,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_NAV] = LAYOUT_split_3x6_5(
-        KC_TRNS,    KC_TRNS,  KC_TRNS,  KC_TRNS,    KC_TRNS,   KC_TRNS,                  LCTL(KC_Y), LCTL(KC_V),     LCTL(KC_C),    LCTL(KC_X),  LCTL(KC_Z),  KC_TRNS,
-        KC_TRNS,    KC_RGUI,  KC_LALT,  KC_LCTL,    KC_LSFT,   KC_TRNS,                  KC_CAPS,    KC_LEFT,        KC_DOWN,       KC_UP,       KC_RIGHT,    KC_TRNS,
-        KC_TRNS,    KC_TRNS,  KC_TRNS,  KC_TRNS,    KC_TRNS,   KC_TRNS,                  KC_INS,     KC_HOME,        KC_PGDN,       KC_PGUP,     KC_END,      KC_TRNS,
-                    KC_TRNS,  KC_TRNS,  KC_TRNS,    KC_TRNS,   KC_TRNS,                  KC_TRNS,    KC_TRNS,        KC_TRNS,       KC_TRNS,     KC_TRNS
+        KC_TRNS,    KC_INS,      LCTL(KC_X),    LCTL(KC_C), LCTL(KC_V),  LCTL(KC_Z),              KC_TRNS,    KC_TRNS,        KC_TRNS,       KC_TRNS,     KC_TRNS,    KC_TRNS,
+        KC_TRNS,    KC_LEFT,     KC_DOWN,       KC_UP,      KC_RIGHT,    LCTL(KC_Y),              KC_TRNS,    KC_LSFT,        KC_LCTL,       KC_LALT,     KC_RGUI,    KC_TRNS,
+        KC_TRNS,    KC_HOME,     KC_PGDN,       KC_PGUP,    KC_END,      KC_CAPS,                 KC_TRNS,    KC_TRNS,        KC_TRNS,       KC_TRNS,     KC_TRNS,    KC_TRNS,
+                    KC_TRNS,     KC_TRNS,       KC_TRNS,    KC_TRNS,     KC_TRNS,                 KC_TRNS,    KC_TRNS,        KC_TRNS,       KC_TRNS,     KC_TRNS
     ),
 
     [_NUMBERS] = LAYOUT_split_3x6_5(

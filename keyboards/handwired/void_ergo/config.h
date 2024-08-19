@@ -30,4 +30,6 @@
 
 #define SPLIT_USB_DETECT
 
+#define TAPPING_TERM 150
+
 //#define UNIC5ODE_KEY_WINC
